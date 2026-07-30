@@ -1,6 +1,6 @@
 # Trap Trapdoor
 
-A Fabric mod for Minecraft that adds reskinned trapdoors for pistonless redstone traps, for every vanilla wood type (oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped).
+A Fabric mod for Minecraft that adds reskinned trapdoors for pistonless redstone traps, for every vanilla wood type (oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, pale oak).
 
 ## Requirements
 
