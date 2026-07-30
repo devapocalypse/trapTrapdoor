@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:bamboo_slab" }
+        ]
+      }
+    },
+    "has_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:bamboo_trapdoor" }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "traptrapdoor:bamboo_trap_trapdoor"
+      }
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe", "has_slab" ],
+    [ "has_the_recipe", "has_trapdoor" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "traptrapdoor:bamboo_trap_trapdoor"
+    ]
+  }
+}

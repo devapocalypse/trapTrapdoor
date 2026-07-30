@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:bamboo_slab",
+    "T": "minecraft:bamboo_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:bamboo_trap_trapdoor",
+    "count": 1
+  }
+}

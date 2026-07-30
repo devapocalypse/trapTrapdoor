@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:birch_slab",
+    "T": "minecraft:birch_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:birch_trap_trapdoor",
+    "count": 1
+  }
+}

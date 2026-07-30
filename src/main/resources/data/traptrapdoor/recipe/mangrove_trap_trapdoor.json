@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:mangrove_slab",
+    "T": "minecraft:mangrove_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:mangrove_trap_trapdoor",
+    "count": 1
+  }
+}

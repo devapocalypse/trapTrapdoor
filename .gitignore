@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+gradle-dist/
+gradle-*-bin.zip
+
+# IDE
+.idea/
+*.iml
+.vscode/
+bin/
+run/
+
+# Loom/Minecraft dev environment artifacts leaked into project root
+/com/
+/assets/
+/data/
+/META-INF/
+/.mcassetsroot
+
+# Unrelated venv
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Claude Code settings / personal workflow tooling (not part of the mod)
+.claude/
+.mcp.json

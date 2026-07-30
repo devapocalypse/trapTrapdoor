@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "traptrapdoor",
+  "version": "${version}",
+  "name": "Trap Trapdoor",
+  "description": "Reskinned trapdoors for pistonless redstone traps.",
+  "authors": ["Nathan Summers"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.trapTrapdoor.TrapTrapdoor"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
+
+

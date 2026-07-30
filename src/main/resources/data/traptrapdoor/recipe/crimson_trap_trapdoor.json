@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:crimson_slab",
+    "T": "minecraft:crimson_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:crimson_trap_trapdoor",
+    "count": 1
+  }
+}

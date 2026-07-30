@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:acacia_slab",
+    "T": "minecraft:acacia_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:acacia_trap_trapdoor",
+    "count": 1
+  }
+}

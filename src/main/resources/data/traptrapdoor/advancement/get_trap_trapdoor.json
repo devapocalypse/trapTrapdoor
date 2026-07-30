@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "got_trap_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "traptrapdoor:acacia_trap_trapdoor",
+              "traptrapdoor:bamboo_trap_trapdoor",
+              "traptrapdoor:birch_trap_trapdoor",
+              "traptrapdoor:cherry_trap_trapdoor",
+              "traptrapdoor:crimson_trap_trapdoor",
+              "traptrapdoor:dark_oak_trap_trapdoor",
+              "traptrapdoor:jungle_trap_trapdoor",
+              "traptrapdoor:mangrove_trap_trapdoor",
+              "traptrapdoor:oak_trap_trapdoor",
+              "traptrapdoor:pale_oak_trap_trapdoor",
+              "traptrapdoor:spruce_trap_trapdoor",
+              "traptrapdoor:warped_trap_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "traptrapdoor:oak_trap_trapdoor"
+    },
+    "title": {
+      "translate": "advancement.traptrapdoor.get_trap_trapdoor.title"
+    },
+    "description": {
+      "translate": "advancement.traptrapdoor.get_trap_trapdoor.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "got_trap_trapdoor"
+    ]
+  ]
+}

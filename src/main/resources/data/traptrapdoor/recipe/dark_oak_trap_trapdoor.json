@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:dark_oak_slab",
+    "T": "minecraft:dark_oak_trapdoor"
+  },
+  "pattern": [
+    "S",
+    "T"
+  ],
+  "result": {
+    "id": "traptrapdoor:dark_oak_trap_trapdoor",
+    "count": 1
+  }
+}

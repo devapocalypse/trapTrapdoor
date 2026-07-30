@@ -1,0 +1,21 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "minecraft:block/bamboo_planks",
+    "particle": "minecraft:block/bamboo_planks"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 13],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#texture", "uv": [0, 13, 16, 16] },
+        "up": { "texture": "#texture", "uv": [0, 13, 16, 16] },
+        "north": { "texture": "#texture", "uv": [0, 0, 16, 16] },
+        "south": { "texture": "#texture", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#texture", "uv": [13, 0, 16, 16] },
+        "east": { "texture": "#texture", "uv": [0, 0, 3, 16] }
+      }
+    }
+  ]
+}
